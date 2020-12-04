@@ -2,4 +2,4 @@ nama : dwi Nur rohman
 
 //tambah dari 233
 
-//tambah_conflig_local dari github
+//tambah_conflig_locals dari github
