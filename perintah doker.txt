@@ -1,0 +1,14 @@
+docker images -> melihat image
+docker pull mongo --> download iamge
+docker container ls -> melihat container yang running
+docker container ls --all -> melihat semua kontainer yang ada
+docker container create --name mongoserverterbaru mongo:latest -> membuat container
+docker container create --name mongoserverterbaru -p 8080:27017 mongo:latest -> membuat contaner dengan post tertentu
+docker container start mongoserverterbaru ->memulai
+docker container stop mongoserverterbaru ->berhnti
+docker container rm mongoserverterbaru remove container -> menghapus container
+docker image rm mongo:latest -> menghapus image/installa
+
+membuat dengan docker file docker build --tag app-golang:1.0 .
+
+membuat image doker dengan Dockerfile  
